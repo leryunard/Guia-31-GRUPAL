@@ -1,0 +1,118 @@
+agenda{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: auto;
+    align-content: space-evenly;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 12px 14px;
+    width: auto;
+    padding: 20px 50px;
+    margin: auto;
+    background: #607eaa;
+    background: linear-gradient(184deg,#607eaa 0%, #1c3879 80%);
+    background: -webkit-linear-gradient(184deg,#607eaa 0%, #1c3879 80%);
+    background: -moz-linear-gradient(184deg,#607eaa 0%, #1c3879 80%);
+}
+titulo{
+    font-size: large;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #456990;
+    width: 180px;
+    color: #F1EFEE;
+    border-radius: 15px;
+    padding: 6px 12px;
+    font-weight: 300;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    transition: all 0.5s ease-in;
+
+}
+contacto{
+    background-color:#FCFAF9;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+    display: grid;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+}
+contacto::after{
+    width: 50px;
+    height: 50px;
+    background-color: #456990;
+    position: absolute;
+    content: "";
+    right:-10px;
+    border-radius: 5px;
+    transform: rotate(50deg);
+    transition: all 0.5s ease-in;
+}
+contacto::before{
+    width: 50px;
+    height: 50px;
+    background-color: #114B5F;
+    position: absolute;
+    content: "";
+    right:-10px;
+    top: 20px;
+    border-radius: 5px;
+    transform: rotate(50deg);
+}
+nombre::before  {
+    content: "Nombre: ";
+    font-weight: bold;
+}
+apellido::before  {
+    content: "Apellido: ";
+    font-weight: bold;
+}
+direccion::before  {
+    content: "Dirección: ";
+    font-weight: bold;
+}
+telefono::before  {
+    content: "Teléfono Celular: ";
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+telefono{
+    margin-top: 20px;
+    text-align: end;
+}
+
+telefono-fijo::before  {
+    content: "Teléfono fijo: ";
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+telefono-fijo{
+    text-align: end;
+}
+
+contacto:hover{
+    transform: scale(1.01);
+}
+
+titulo:hover{
+    background-color: #114B5F;
+}
+
+contacto:hover:after{
+    background-color: #0eae06;
+    
+}
+
+contacto:hover:before{
+    background-color: #10530c;
+    
+}

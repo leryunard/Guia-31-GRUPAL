@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio4.css" type="text/css"?>
+<registro id="01">
+    <titulo>Temperaturas a nivel nacional</titulo>
+    <tabla numero="1">
+        <fecha>
+            <dia>10</dia>
+            <mes>marzo</mes>
+            <anio>2022</anio>
+        </fecha>
+        <region id="01">
+            <nombre>Oriente</nombre>
+            <temperatura>
+                <maxima>22º</maxima>
+                <minima>33º</minima>
+                <promedio>30º</promedio>
+            </temperatura>
+        </region>
+        <region id="02">
+            <nombre>Centro</nombre>
+            <temperatura>
+                <maxima>20º</maxima>
+                <minima>32º</minima>
+                <promedio>31º</promedio>
+            </temperatura>
+        </region>
+        <region id="03">
+            <nombre>Occidente</nombre>
+            <temperatura>
+                <maxima>25º</maxima>
+                <minima>35º</minima>
+                <promedio>33º</promedio>
+            </temperatura>
+        </region>
+    </tabla>
+    <tabla numero="2">
+        <fecha>
+            <dia>11</dia>
+            <mes>marzo</mes>
+            <anio>2022</anio>
+        </fecha>
+        <region id="01">
+            <nombre>Oriente</nombre>
+            <temperatura>
+                <maxima>21º</maxima>
+                <minima>32º</minima>
+                <promedio>30º</promedio>
+            </temperatura>
+        </region>
+        <region id="02">
+            <nombre>Centro</nombre>
+            <temperatura>
+                <maxima>21º</maxima>
+                <minima>33º</minima>
+                <promedio>32º</promedio>
+            </temperatura>
+        </region>
+        <region id="03">
+            <nombre>Occidente</nombre>
+            <temperatura>
+                <maxima>24º</maxima>
+                <minima>34º</minima>
+                <promedio>32º</promedio>
+            </temperatura>
+        </region>
+    </tabla>
+    <tabla numero="3">
+        <fecha>
+            <dia>12</dia>
+            <mes>marzo</mes>
+            <anio>2022</anio>
+        </fecha>
+        <region id="01">
+            <nombre>Oriente</nombre>
+            <temperatura>
+                <maxima>21º</maxima>
+                <minima>34º</minima>
+                <promedio>31º</promedio>
+            </temperatura>
+        </region>
+        <region id="02">
+            <nombre>Centro</nombre>
+            <temperatura>
+                <maxima>21º</maxima>
+                <minima>33º</minima>
+                <promedio>32º</promedio>
+            </temperatura>
+        </region>
+        <region id="03">
+            <nombre>Occidente</nombre>
+            <temperatura>
+                <maxima>26º</maxima>
+                <minima>36º</minima>
+                <promedio>34º</promedio>
+            </temperatura>
+        </region>
+    </tabla>
+    <tabla numero="4">
+        <fecha>
+            <dia>13</dia>
+            <mes>marzo</mes>
+            <anio>2022</anio>
+        </fecha>
+        <region id="01">
+            <nombre>Oriente</nombre>
+            <temperatura>
+                <maxima>21º</maxima>
+                <minima>32º</minima>
+                <promedio>30º</promedio>
+            </temperatura>
+        </region>
+        <region id="02">
+            <nombre>Centro</nombre>
+            <temperatura>
+                <maxima>22º</maxima>
+                <minima>34º</minima>
+                <promedio>32º</promedio>
+            </temperatura>
+        </region>
+        <region id="03">
+            <nombre>Occidente</nombre>
+            <temperatura>
+                <maxima>23º</maxima>
+                <minima>33º</minima>
+                <promedio>30º</promedio>
+            </temperatura>
+        </region>
+    </tabla>
+    <tabla numero="5">
+        <fecha>
+            <dia>14</dia>
+            <mes>marzo</mes>
+            <anio>2022</anio>
+        </fecha>
+        <region id="01">
+            <nombre>Oriente</nombre>
+            <temperatura>
+                <maxima>20º</maxima>
+                <minima>30º</minima>
+                <promedio>29º</promedio>
+            </temperatura>
+        </region>
+        <region id="02">
+            <nombre>Centro</nombre>
+            <temperatura>
+                <maxima>19º</maxima>
+                <minima>29º</minima>
+                <promedio>26º</promedio>
+            </temperatura>
+        </region>
+        <region id="03">
+            <nombre>Occidente</nombre>
+            <temperatura>
+                <maxima>23º</maxima>
+                <minima>31º</minima>
+                <promedio>30º</promedio>
+            </temperatura>
+        </region>
+    </tabla>
+    <tabla numero="6">
+        <fecha>
+            <dia>15</dia>
+            <mes>marzo</mes>
+            <anio>2022</anio>
+        </fecha>
+        <region id="01">
+            <nombre>Oriente</nombre>
+            <temperatura>
+                <maxima>21º</maxima>
+                <minima>33º</minima>
+                <promedio>30º</promedio>
+            </temperatura>
+        </region>
+        <region id="02">
+            <nombre>Centro</nombre>
+            <temperatura>
+                <maxima>21º</maxima>
+                <minima>33º</minima>
+                <promedio>32º</promedio>
+            </temperatura>
+        </region>
+        <region id="03">
+            <nombre>Occidente</nombre>
+            <temperatura>
+                <maxima>26º</maxima>
+                <minima>36º</minima>
+                <promedio>34º</promedio>
+            </temperatura>
+        </region>
+    </tabla>
+    
+</registro>

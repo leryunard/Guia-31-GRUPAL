@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<?xml-stylesheet type="text/css" href="ejercicio5.css" ?>
+<!-- Ejercicio 5 GC18090 -->
+<agenda>
+    <titulo> Agenda de contactos </titulo>
+    <contacto id="1" fechaingreso="1/11/2012">
+        <nombre>Miguel</nombre>
+        <apellido>Galdamez</apellido>
+        <direccion>Colonia Buena vista</direccion>
+        <correo>migue.galdamez@hotmail.com</correo>
+        <telefono>73356794</telefono>
+        <telefono-fijo>22703369</telefono-fijo>
+    </contacto>
+     <contacto id="2" fechaingreso="1/11/2012">
+        <nombre>Oswaldo</nombre>
+        <apellido>Cardoza</apellido>
+        <direccion>Colonia Cristo Redentor</direccion>
+        <correo>cardy21@gmail.com</correo>
+        <telefono>75495312</telefono>
+        <telefono-fijo>22358369</telefono-fijo>
+    </contacto>
+     <contacto id="3" fechaingreso="1/11/2012">
+        <nombre>Joel</nombre>
+        <apellido>Turcios</apellido>
+        <direccion>Avenida los 4 Vientos</direccion>
+        <correo>Turcios.Joel@hotmail.com</correo>
+        <telefono>75239640</telefono>
+        <telefono-fijo>23254978</telefono-fijo>
+    </contacto>
+     <contacto id="4" fechaingreso="1/11/2012">
+        <nombre>Victor</nombre>
+        <apellido>Portillo</apellido>
+        <direccion>Residencial San Jose</direccion>
+        <correo>PortTor12@hotmail.com</correo>
+        <telefono>75201479</telefono>
+        <telefono-fijo>22659745</telefono-fijo>
+    </contacto>
+     <contacto id="5" fechaingreso="1/11/2012">
+        <nombre>Ozzy</nombre>
+        <apellido>Osbourne</apellido>
+        <direccion>Hidden Hills, CA</direccion>
+        <correo>ozzy999@hotmail.com</correo>
+        <telefono>74359544</telefono>
+        <telefono-fijo>23123414</telefono-fijo>
+    </contacto>
+     <contacto id="6" fechaingreso="1/11/2012">
+        <nombre>Satoru</nombre>
+        <apellido>Iwata</apellido>
+        <direccion>12 Ellsworth St, Rye, NY 10580</direccion>
+        <correo>nintendo@hotmail.com</correo>
+        <telefono>71334241</telefono>
+        <telefono-fijo>24124418</telefono-fijo>
+    </contacto>
+    
+</agenda> 

@@ -1,0 +1,103 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+  }
+
+*{
+    margin: auto;
+    padding: auto;
+    border: auto;
+    font-size: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    text-align: center;
+    
+    height: 65px;
+    width: 100%;
+    background-color: #3a383a;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 90vh !important;
+    background: url(img/foo.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 600;
+    color:white;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 70px;
+    border: 3px solid #fffcff;
+    color: #fff;
+    text-decoration: none;
+    background: #131213;
+}
+h3{
+    margin-bottom: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #fff;
+    padding: 0 100px;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+.btn:hover {
+    background: none;  
+}
+.btn-home a {
+    float: center;
+}
+.btn-hom {
+    display: inline-block;
+}
+.content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+   width: 100%;
+   border: 1px solid #000000;
+   background: rgb(255, 255, 255);
+}
+th, td {
+   width: auto;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: auto;
+   color: #fff;
+    background: rgb(255, 255, 255);
+}
+th {
+   background: rgb(131, 131, 131);
+}
+ 

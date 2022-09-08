@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="registro">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="región">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="temperatura">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="maxima" maxOccurs="unbounded" />
+                                        <xs:element name="minima" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" use="required" />
+                        <xs:attribute name="nombre" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" />
+            <xs:attribute name="fecha" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

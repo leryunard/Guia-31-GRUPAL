@@ -1,0 +1,94 @@
+registro {
+    font-family: sans-serif;
+    display: grid;
+    position: absolute;
+    /*grid-template-columns: auto auto auto; para tres columnas*/  
+    grid-template-columns: auto auto auto;
+    width: 95vw;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 10px;
+    background-image: url(12661.jpg);
+
+}
+
+titulo{
+    background-color: lightblue;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+tabla {
+    margin: 10px 10px;
+    width: auto;
+    height: auto;
+    display: grid;
+    position: relative;
+    background-color: lightblue;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    justify-content: center;
+    align-content: center;
+}
+
+fecha {
+    margin: auto;
+    align-content: center;
+}
+
+fecha::before {
+    content: "Fecha ";
+}
+
+region {
+    display: grid;
+    background-color: whitesmoke;
+    width: 200px;
+    height: auto;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+region:hover {
+    transform: scale(1.05);
+}
+
+nombre {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+nombre::before {
+    content: "Región ";
+
+}
+
+temperatura {
+    display: grid;
+}
+
+temperatura::before {
+    content: "Temperaturas";
+    font-weight: bold;
+}
+
+maxima::before {
+    content: "Máxima: ";
+}
+
+minima::before {
+    content: "Minima: ";
+}
+
+promedio::before {
+    content: "Promedio: ";
+}

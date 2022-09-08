@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ejercicio6.css"?>
+<!-- ejercicio6.xml -->
+
+<ciclo id="VI">
+    <!--  <estudiante nombre="Austin" carnet="mp15065"> -->
+    <container>
+    <titulo>listado de asignaturas</titulo>
+        <data id="TPI115">
+            <materia>Tecnicas de programación para internet</materia>
+            <horario>
+                <teorico>
+                    GT: Martes - 8:00pm
+                 </teorico>
+                <laboratorio>
+                     GD: Viernes - 9:30am
+                 </laboratorio>
+            </horario>
+        </data>
+        <data id="MOP115">
+            <materia>Métodos de Optimización</materia>
+            <horario>
+                <teorico>
+                    GT: Martes - 8:00pm
+                 </teorico>
+                <laboratorio>
+                     GD: Viernes - 9:30am
+                 </laboratorio>
+            </horario>
+        </data>
+        <data id="IEC115">
+            <materia>Ingeniería Económica</materia>
+            <horario>
+                <teorico>
+                    GT: Martes - 8:00pm
+                 </teorico>
+                <laboratorio>
+                     GD: Viernes - 9:30am
+                 </laboratorio>
+            </horario>
+        </data>
+        <data id="TSI115">
+            <materia>Teoría de sistemas</materia>
+            <horario>
+                <teorico>
+                    GT: Martes - 8:00pm
+                 </teorico>
+                <laboratorio>
+                     GD: Viernes - 9:30am
+                 </laboratorio>
+            </horario>
+        </data>
+        <data id="SIC115">
+            <materia>Sistemas contables</materia>
+            <horario>
+                <teorico>
+                    GT: Martes - 8:00pm
+                 </teorico>
+                <laboratorio>
+                     GD: Viernes - 9:30am
+                 </laboratorio>
+            </horario>
+        </data>
+
+    </container>
+
+    <!--  </estudiante> -->
+</ciclo> <!--  <estudiante nombre="austin post " carnet="mp15065">-->

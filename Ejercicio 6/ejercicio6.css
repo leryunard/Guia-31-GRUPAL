@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=PT+Sans:wght@400;700&family=Poppins:wght@300;400;600;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ciclo {
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  background: url(img/so.jpg) no-repeat center;
+  background-size: cover;
+
+}
+
+container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 1rem;
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+titulo{
+  background-color: rgb(83, 81, 81);
+  color: white;
+  border-collapse: 30px;
+  padding: 15px ;
+  font-size: large;
+  text-align: center;
+  font-weight: bold; 
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+data {
+  width: 70%;
+  /*   height: 100px; */
+  margin: 0 auto;
+  background-color: rgb(65, 80, 161);
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+materia {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+horario {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+teorico,
+laboratorio {
+  width: 200px;
+  padding-left: 10px;
+  background-color: rgba(29, 29, 29, 0.418);
+  border-radius: 6px;
+}
+#SIC115 {
+  background-color: antiquewhite;
+  color: black;
+}
+#SIC115:hover {
+  transform: scale(1.10);
+}
+#TSI115 {
+  background-color: rgb(77, 53, 163);
+  color: white;
+}
+#TSI115:hover {
+  transform: scale(1.10);
+}
+#MOP115 {
+  background-color: brown;
+}
+#MOP115:hover {
+  transform: scale(1.10);
+}
+#TPI115 {
+  background-color: rgb(84, 109, 155);
+}
+#TPI115:hover {
+  transform: scale(1.10);
+}
+#IEC115:hover {
+  transform: scale(1.10);
+}
